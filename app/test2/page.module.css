@@ -1,0 +1,76 @@
+.postsList {
+  margin-top: 20px;
+}
+.postsTitle {
+  margin-bottom: 15px;
+  color: #333;
+}
+.post {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background-color: white;
+}
+.postHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.postName {
+  color: #007bff;
+  font-weight: bold;
+}
+.postTime {
+  color: #666;
+  font-size: 0.9em;
+}
+.postContent {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.flexBoxColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.button {
+  appearance: none;
+  padding: 1rem 2rem;
+  color: aliceblue;
+  background-color: #007bff;
+  border-radius: 1rem;
+}
+
+.input {
+  appearance: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 40vw;
+}
+
+.deleteButton {
+  appearance: none;
+  padding: 0.5rem 1rem;
+  color: aliceblue;
+  background-color: #eb2121;
+  border-radius: 1rem;
+}
