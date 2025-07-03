@@ -1,0 +1,130 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.userInfo {
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.postForm {
+  margin-bottom: 30px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  min-height: 100px;
+  resize: vertical;
+}
+
+.button {
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+.primaryButton {
+  background: #007bff;
+}
+
+.dangerButton {
+  background: #dc3545;
+}
+
+.successButton {
+  background: #28a745;
+}
+
+.warningButton {
+  background: #ffc107;
+  color: black;
+}
+
+.secondaryButton {
+  background: #6c757d;
+}
+
+.googleButton {
+  background: #4285f4;
+}
+
+.post {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background: white;
+}
+
+.postHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.postActions {
+  display: flex;
+  gap: 10px;
+}
+
+.editForm {
+  margin-bottom: 10px;
+}
+
+.editActions {
+  display: flex;
+  gap: 10px;
+}
+
+.authContainer {
+  text-align: center;
+}
+
+.authButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.authForm {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.loading {
+  padding: 20px;
+  text-align: center;
+}

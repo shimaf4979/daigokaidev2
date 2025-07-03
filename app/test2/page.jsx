@@ -51,7 +51,6 @@ const page = () => {
   const addPost = async () => {
     if (newName.trim() && newContent.trim()) {
       const docRef = await addDoc(collection(db, "posts"), {
-        id: Date.now(),
         name: newName,
         time: new Date().toLocaleString("ja-JP"),
         content: newContent,
@@ -66,10 +65,14 @@ const page = () => {
     }
   };
 
-  const deletePost = (id) => {
+  const deletePost = async (id) => {
     console.log(id);
-    const filteredPosts = posts.filter((post) => post.id !== id);
-    setPosts(filteredPosts);
+
+    await deleteDoc(doc(db, "posts", id));
+    console.log("Document deleted");
+
+    // 削除後に投稿一覧を更新
+    fetchPosts();
   };
 
   return (
